@@ -1,0 +1,11 @@
+# Uncomment this line if you're using Swift
+platform :ios, '8.0'
+use_frameworks!
+
+target 'FirebaseApp' do
+pod 'PromiseKit'
+pod 'AwesomeCache'
+pod 'TTGTagCollectionView'
+pod 'Firebase/Core'
+end
+
